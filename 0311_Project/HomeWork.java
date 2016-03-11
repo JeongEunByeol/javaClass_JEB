@@ -27,7 +27,7 @@ public class HomeWork {
 	
 		System.out.println("최대값은"+max);
 		
-		System.out.println("최소갑은"+min);
+		System.out.println("최소값은"+min);
 	    
 	}
 }
