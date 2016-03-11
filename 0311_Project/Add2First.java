@@ -1,7 +1,7 @@
-import java.util.Scanner; // Scanner Å¬·¡½º Æ÷ÇÔ
+ï»¿import java.util.Scanner; // Scanner í´ë˜ìŠ¤ í¬í•¨
 
 public class Add2First {
-	// ¸ŞÀÎ ¸Ş¼Òµå¿¡¼­ºÎÅÍ ½ÇÇàÀÌ ½ÃÀÛµÈ´Ù.
+	// ë©”ì¸ ë©”ì†Œë“œì—ì„œë¶€í„° ì‹¤í–‰ì´ ì‹œì‘ëœë‹¤.
 	public static void main(String args[]){
 		
 		Scanner input = new Scanner(System.in);
@@ -9,10 +9,10 @@ public class Add2First {
 		int y;
 		int sum;
 		
-		System.out.print("Ã¹¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 		x = input.nextInt();
 		
-		System.out.print("µÎ¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 		y = input.nextInt();
 		
 		sum = x+y;

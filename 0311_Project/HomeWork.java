@@ -1,7 +1,7 @@
-/*
-3¿ù 11ÀÏ java½Ç½À(first) 
-ÀÛ¼ºÀÚ: Á¤Àºº°
-5°³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Ş°í ÃÖ´ë¿Í ÃÖ¼Ò¸¦ Ãâ·ÂÇÑ´Ù. 
+ï»¿/*
+3ì›” 11ì¼ javaì‹¤ìŠµ(first) 
+ì‘ì„±ì: ì •ì€ë³„
+5ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ê³  ìµœëŒ€ì™€ ìµœì†Œë¥¼ ì¶œë ¥í•œë‹¤. 
  */
 
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class HomeWork {
 		Scanner input = new Scanner(System.in);
 		int x,i,min=Integer.MAX_VALUE,max=0;
 		
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 		
 		for(i=0; i<5; i++){
 			x = input.nextInt();
@@ -25,9 +25,9 @@ public class HomeWork {
 			}
 		}
 	
-		System.out.println("ÃÖ´ë°ªÀº"+max);
+		System.out.println("ìµœëŒ€ê°’ì€"+max);
 		
-		System.out.println("ÃÖ¼Ò°©Àº"+min);
+		System.out.println("ìµœì†Œê°‘ì€"+min);
 	    
 	}
 }
